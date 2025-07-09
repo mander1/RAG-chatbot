@@ -1,0 +1,15 @@
+name: rag-chatbot
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - langchain
+      - chromadb
+      - openai
+      - transformers
+      - sentence-transformers
+      - gradio
+      - python-dotenv
